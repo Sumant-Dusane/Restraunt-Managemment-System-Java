@@ -29,7 +29,7 @@ class Restro{   //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	for(i = 1; i <= n; i++){
 	  
 	   System.out.println("Enter the Name of Dish "+ i + ":");	//name
-	   name[i] = s.next();
+	   name[i] = s.nextLine();
 
 	   System.out.println("How many " + name[i] + " you want?:");	//quantity
 	   quantity[i] = s.nextInt();
